@@ -36,3 +36,174 @@
     transform: rotate(360deg);
   }
 }
+
+.Text {
+  border: 10px solid #282c34;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding: 10px 30px 10px 30px;
+}
+
+.cold {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  animation-name: cold;
+  animation-duration: 4s;
+  border-radius: 50%;
+  animation-fill-mode: forwards;
+  margin: auto;
+  padding: 10px;
+}
+
+@keyframes cold {
+  from {
+    background-color: rgb(255, 0, 0);
+  }
+  to {
+    background-color: blue;
+  }
+}
+
+.warm {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  animation-name: warm;
+  animation-duration: 4s;
+  border-radius: 50%;
+  animation-fill-mode: forwards;
+  margin: auto;
+  padding: 10px;
+}
+
+@keyframes warm {
+  from {
+    background-color: blue;
+  }
+  to {
+    background-color: rgb(255, 51, 0);
+  }
+}
+
+.hot {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  animation-name: hot;
+  animation-duration: 4s;
+  border-radius: 50%;
+  animation-fill-mode: forwards;
+  margin: auto;
+  padding: 10px;
+}
+
+@keyframes hot {
+  from {
+    background-color: rgb(255, 51, 0);
+  }
+  to {
+    background-color: red;
+  }
+}
+
+.Winner {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  animation-name: Winner;
+  animation-duration: 4s;
+  border-radius: 50%;
+  animation-fill-mode: forwards;
+  margin: auto;
+  padding: 10px;
+}
+
+@keyframes Winner {
+  from {
+    background-color: red;
+  }
+  to {
+    background-color: green;
+  }
+}
+
+.fire {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  animation-name: fire;
+  animation-duration: 4s;
+  border-radius: 50%;
+  animation-fill-mode: forwards;
+  margin: auto;
+  padding: 10px;
+}
+
+@keyframes fire {
+  from {
+    background-color: red;
+  }
+  to {
+    background-color: rgb(139, 0, 0);
+  }
+}
+
+.card {
+  border: 3px solid #03071e;
+  padding: 35px 0px 35px 0px;
+  margin-left: 500px;
+  margin-right: 500px;
+  margin-top: 80px;
+  margin-bottom: 20px;
+  background-color: rgba(140, 163, 240, 0.404);
+}
+
+.page {
+  background-image: url(C:/Users/doubl/Desktop/Development/TheGame/hotcold/src/bg.jpg);
+  position: absolute;
+  min-width: 100%;
+  min-height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  color: antiquewhite;
+  margin-top: 80px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.button {
+  background-color: #d1e424; /* Green */
+  border: none;
+  color: white;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button5 {
+  background-color: white;
+  color: black;
+  border: 2px solid #555555;
+}
+.button5:hover {
+  background-color: #0f2fe6a1;
+  color: white;
+}
+
+#error {
+  color: red;
+}
